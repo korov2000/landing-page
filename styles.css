@@ -1,12 +1,17 @@
 body {
 	font-family: Roboto, Arial, sans-serif;
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-header {
+header,
+.hero {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 40px;
+	padding: 0 140px 70px 140px;
 	background-color: #1F2937;
 	color: #F9FAF8;
 }
@@ -20,9 +25,38 @@ nav ul {
 	list-style: none;
 	display: flex;
 	gap: 20px;
+	padding: 0;
 }
 
 nav a:any-link {
+	color: #F9FAF8;
+	text-decoration: none;
+}
+
+.hero-left,
+.hero-right {
+	flex: 1 0 340px;
+}
+
+.hero img {
+	display: block;
+	width: 100%;
+}
+
+.hero-left h2 {
+	margin: 0;
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.hero-button:any-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: #3882F6;
 	color: #F9FAF8;
 	text-decoration: none;
 }
