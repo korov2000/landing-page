@@ -29,8 +29,9 @@ nav ul {
 }
 
 nav a:any-link {
-	color: #F9FAF8;
+	color: #E5E7EB;
 	text-decoration: none;
+	font-size: 18px;
 }
 
 .hero-left,
@@ -38,8 +39,7 @@ nav a:any-link {
 	flex: 1 0 340px;
 }
 
-.hero img {
-	display: block;
+img {
 	width: 100%;
 }
 
@@ -47,6 +47,11 @@ nav a:any-link {
 	margin: 0;
 	font-size: 48px;
 	font-weight: 900;
+}
+
+.hero-left p {
+	color: #E5E7EB;
+	font-size: 18px;
 }
 
 .hero-button:any-link {
@@ -59,4 +64,54 @@ nav a:any-link {
 	background-color: #3882F6;
 	color: #F9FAF8;
 	text-decoration: none;
+}
+
+.info {
+	padding: 30px 0 70px 0;
+}
+
+.info h2 {
+	text-align: center;
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 900;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+
+.card {
+	flex: 0 0 200px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.card img {
+	box-sizing: border-box;
+	border: 3px solid #3882F6;
+	border-radius: 10px;
+}
+
+.card p {
+	margin-top: 5px;
+}
+
+.quote {
+	background-color: #E5E7EB;
+	padding: 70px 250px;
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.quote p {
+	text-align: right;
+	font-style: normal;
+	font-weight: 900;
 }
