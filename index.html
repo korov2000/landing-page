@@ -7,20 +7,9 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header class="header">
-		<div class="header-bottom">
-			<div class="header-bottom-left">
-				<h1>This website is awesome</h1>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde aliquid explicabo non veniam voluptatem reprehenderit ipsam hic dolorum ex cum repudiandae corporis, molestiae iste, optio esse inventore delectus accusamus.</p>
-				<a class="header-bottom-left-buttom" href="#">Sign up</a>
-			</div>
-			<div class="header-bottom-right">
-				<img src="assets/image5.png" alt="some alt text">
-			</div>
-		</div>
-
-		<nav class="header-top">
-			<p>Header Logo</p>
+	<header>
+		<h1>Header Logo</h1>
+		<nav>
 			<ul>
 				<li><a href="#">header link one</a></li>
 				<li><a href="#">header link two</a></li>
@@ -29,7 +18,18 @@
 		</nav>
 	</header>	
 
-	<section>
+	<section class="hero">
+		<div class="hero-left">
+			<h2>This website is awesome</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde aliquid explicabo non veniam voluptatem reprehenderit ipsam hic dolorum ex cum repudiandae corporis, molestiae iste, optio esse inventore delectus accusamus.</p>
+			<a class="hero-button" href="#">Sign up</a>
+		</div>
+		<div class="hero-right">
+			<img src="assets/image5.png" alt="some alt text">
+		</div>
+	</section>
+
+	<section class=cards>
 		<h2>Some random information</h2>
 		<div class="card">
 			<img src="assets/image1.png" alt="some img text">
@@ -49,15 +49,15 @@
 		</div>
 	</section>
 
-	<section>
+	<section class="quote">
 		<blockquote cite="">
 			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa, itaque quam consequatur temporibus esse quasi cumque quae est. Hic assumenda soluta at dolor error saepe vitae, ut porro corrupti?
 		</blockquote>
 		<p>-Some Author, <cite>Some resource</cite></p>
 	</section>
 
-	<section>
-		<div class="cte">
+	<section class="cte">
+		<div class="cte-container">
 			<h2>Call to action! It's time!</h2>
 			<p>Sign up for our product by clicking that button right over there</p>
 			<a class="cte-buttom" href="#">Sign up</a>
