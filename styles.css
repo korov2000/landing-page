@@ -54,7 +54,8 @@ img {
 	font-size: 18px;
 }
 
-.hero-button:any-link {
+.hero-button:any-link,
+.cte-button:any-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -103,15 +104,60 @@ img {
 
 .quote {
 	background-color: #E5E7EB;
-	padding: 70px 250px;
 	font-size: 36px;
 	color: #1F2937;
 	font-weight: 300;
 	font-style: italic;
 }
 
+.quote blockquote {
+	max-width: 70%;
+	margin: 0 auto;
+	padding-top: 70px;
+	padding-bottom: 5px;
+}
+
 .quote p {
+	max-width: 70%;
+	margin: 0 auto;
+	padding-bottom: 70px;
 	text-align: right;
 	font-style: normal;
 	font-weight: 900;
+}
+
+.cte {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 60px 0;
+}
+
+.cte-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 100px;
+	background-color: #3882F6;
+	gap: 100px;
+	color: #F9FAF8;
+	border-radius: 5px;
+}
+
+.cte-action h2,
+.cte-action p {
+	margin: 5px 0;
+}
+
+.cte-button {
+	border: 3px solid #F9FAF8;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+	background-color: #1F2937;
+	color: #F9FAF8;
 }
